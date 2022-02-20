@@ -78,5 +78,15 @@ namespace ekz
         {
 
         }
+
+        private void выфавыаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
     }
 }

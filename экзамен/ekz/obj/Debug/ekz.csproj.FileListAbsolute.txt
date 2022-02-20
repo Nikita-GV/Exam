@@ -19,3 +19,13 @@ C:\Users\Таня\Desktop\ekz\obj\Debug\ekz.csproj.GenerateResource.cache
 C:\Users\Таня\Desktop\ekz\obj\Debug\ekz.csproj.CoreCompileInputs.cache
 C:\Users\Таня\Desktop\ekz\obj\Debug\ekz.exe
 C:\Users\Таня\Desktop\ekz\obj\Debug\ekz.pdb
+C:\Users\Пользователь\Desktop\экзамен\ekz\bin\Debug\ekz.exe.config
+C:\Users\Пользователь\Desktop\экзамен\ekz\bin\Debug\ekz.exe
+C:\Users\Пользователь\Desktop\экзамен\ekz\bin\Debug\ekz.pdb
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.Form1.resources
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.exe
+C:\Users\Пользователь\Desktop\экзамен\ekz\obj\Debug\ekz.pdb

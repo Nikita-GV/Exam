@@ -34,6 +34,7 @@ namespace ekz
             this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
@@ -43,11 +44,6 @@ namespace ekz
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.авToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.аывToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выфвToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выфавыаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -57,8 +53,7 @@ namespace ekz
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.файлToolStripMenuItem,
-            this.оПрограммеToolStripMenuItem,
-            this.выфвToolStripMenuItem});
+            this.оПрограммеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -93,13 +88,17 @@ namespace ekz
             // оПрограммеToolStripMenuItem
             // 
             this.оПрограммеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem,
-            this.авToolStripMenuItem,
-            this.аывToolStripMenuItem});
+            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem});
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
             this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.оПрограммеToolStripMenuItem.Text = "О программе";
             this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
+            // 
+            // выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem
+            // 
+            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem.Name = "выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem";
+            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
+            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem.Text = "Выполнил Гаврилов Н.К. ПКспк-218 Вариант 1";
             // 
             // statusStrip1
             // 
@@ -126,6 +125,7 @@ namespace ekz
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(776, 250);
             this.webBrowser1.TabIndex = 2;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // openFileDialog1
             // 
@@ -179,38 +179,6 @@ namespace ekz
             this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem
-            // 
-            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem.Name = "выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem";
-            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
-            this.выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem.Text = "Выполнил Гаврилов Н.К. ПКспк-218 Вариант 1";
-            // 
-            // авToolStripMenuItem
-            // 
-            this.авToolStripMenuItem.Name = "авToolStripMenuItem";
-            this.авToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
-            this.авToolStripMenuItem.Text = "ав";
-            // 
-            // аывToolStripMenuItem
-            // 
-            this.аывToolStripMenuItem.Name = "аывToolStripMenuItem";
-            this.аывToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
-            this.аывToolStripMenuItem.Text = "аыв";
-            // 
-            // выфвToolStripMenuItem
-            // 
-            this.выфвToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.выфавыаToolStripMenuItem});
-            this.выфвToolStripMenuItem.Name = "выфвToolStripMenuItem";
-            this.выфвToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.выфвToolStripMenuItem.Text = "выфв";
-            // 
-            // выфавыаToolStripMenuItem
-            // 
-            this.выфавыаToolStripMenuItem.Name = "выфавыаToolStripMenuItem";
-            this.выфавыаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.выфавыаToolStripMenuItem.Text = "выфавыа";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -254,10 +222,6 @@ namespace ekz
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem выполнилГавриловНКПКспк218Вариант1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem авToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem аывToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выфвToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выфавыаToolStripMenuItem;
     }
 }
 
