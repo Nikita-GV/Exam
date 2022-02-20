@@ -84,5 +84,9 @@ namespace ekz
 
         }
 
+        private void выполнилГавриловНКПКспк218ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

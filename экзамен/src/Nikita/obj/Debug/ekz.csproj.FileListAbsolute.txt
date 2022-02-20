@@ -49,3 +49,13 @@ D:\Users\stu-pksp118\Desktop\src\Pavel Semin\obj\Debug\ekz.csproj.CoreCompileInp
 D:\Users\stu-pksp118\Desktop\src\Pavel Semin\obj\Debug\aaa.exe
 D:\Users\stu-pksp118\Desktop\src\Pavel Semin\obj\Debug\aaa.pdb
 D:\Users\stu-pksp118\Desktop\src\Pavel Semin\obj\Debug\aaa.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\bin\Debug\aaa.exe.config
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\bin\Debug\aaa.exe
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\bin\Debug\aaa.pdb
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\ekz.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\ekz.Form1.resources
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\aaa.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\ekz.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\ekz.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\aaa.exe
+C:\Users\Пользователь\Desktop\экзамен\src\Nikita\obj\Debug\aaa.pdb
